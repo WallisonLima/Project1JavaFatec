@@ -32,7 +32,7 @@ public class Exer03 {
             line = "<h2>Ra: " + ra + "</h2>\n";
             bw.write(line, 0, line.length());
             
-            line = "https://github.com/WallisonLima/ProjectsJavaFatec/tree/master/LP-20210519-Streams</body>\n</html>\n";
+            line = "<a>https://github.com/WallisonLima/ProjectsJavaFatec/tree/master/LP-20210519-Streams<a></body>\n</html>\n";
             bw.write(line, 0, line.length());
             System.out.println("Geracao finalizada.");
             //
